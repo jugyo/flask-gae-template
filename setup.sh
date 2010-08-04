@@ -6,7 +6,7 @@ do
   rm -rf $i
 done
 
-easy_install -U -i http://pypi.python.jp/ Flask
+easy_install -U Flask
 
 for i in $lib
 do
