@@ -12,3 +12,10 @@ Run
 ------
 
     dev_appserver.py .
+
+Deploy
+------
+
+You should fix application name of app.yaml before deploy.
+
+    appcfg.py update .
