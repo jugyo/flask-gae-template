@@ -19,3 +19,9 @@ Deploy
 You should fix application name of app.yaml before deploy.
 
     appcfg.py update .
+
+TODO
+------
+
+* sample for using template
+* sample for test
