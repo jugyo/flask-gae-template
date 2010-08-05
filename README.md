@@ -13,6 +13,8 @@ Run
 
     dev_appserver.py .
 
+and open 'http://localhost:8080/hello'.
+
 Deploy
 ------
 
@@ -23,5 +25,5 @@ You should fix application name of app.yaml before deploy.
 TODO
 ------
 
-* sample for using template
+* sample for using DataStore
 * sample for test
