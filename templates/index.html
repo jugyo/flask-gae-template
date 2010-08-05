@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block body %}
+  <form action="{{ url_for('hello') }}" method="get">
+    <input type="text" name="name" />
+    <input type="submit" value="hello"/>
+  </form>
+{% endblock %}
