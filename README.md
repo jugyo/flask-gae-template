@@ -27,3 +27,8 @@ TODO
 
 * sample for using DataStore
 * sample for test
+
+See Also
+------
+
+[http://flask.pocoo.org/](http://flask.pocoo.org/)
