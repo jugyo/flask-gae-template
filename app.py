@@ -1,6 +1,3 @@
-import sys
-sys.path.append('lib')
-
 from flask import Flask
 from flask import render_template, request
 
@@ -17,7 +14,3 @@ def index():
 @app.route('/hello')
 def hello():
     return render_template('hello.html', name=request.args.get('name'))
-
-if __name__ == '__main__':
-    from wsgiref.handlers import CGIHandler
-    CGIHandler().run(app)
