@@ -25,7 +25,6 @@ You should fix application name of app.yaml before deploy.
 TODO
 ------
 
-* sample for using DataStore
 * sample for test
 
 See Also

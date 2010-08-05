@@ -1,7 +1,13 @@
 {% extends "layout.html" %}
 {% block body %}
-  <form action="{{ url_for('hello') }}" method="get">
-    <input type="text" name="name" />
-    <input type="submit" value="hello"/>
+  <form action="{{ url_for('add') }}" method="post">
+    <input type="text" name="text" />
+    <input type="submit" value="add"/>
   </form>
+
+  <ul>
+    {% for todo in todos %}
+      <li>{{ todo.text }}</li>
+    {% endfor %}
+  </ul>
 {% endblock %}
