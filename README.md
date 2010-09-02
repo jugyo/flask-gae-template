@@ -4,8 +4,8 @@ flask-gae-template
 Setup
 ------
 
-    git clone http://github.com/jugyo/flask-gae-template.git
-    cd flask-gae-template
+    git clone http://github.com/jugyo/flask-gae-template.git app
+    cd app
     ./setup.sh
 
 Run
