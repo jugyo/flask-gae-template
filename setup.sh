@@ -15,3 +15,5 @@ do
   d=`easy_install -m $i | grep Using | awk '{print $2}'`/$i
   cp -rf $d lib
 done
+
+rm -rf .git
