@@ -17,4 +17,20 @@ do
 done
 
 rm -rf .git
+
 rm setup.sh
+
+cat <<EOS > README.md
+my-app
+======
+
+Run
+------
+
+    dev_appserver.py .
+
+Deploy
+------
+
+    appcfg.py update .
+EOS
