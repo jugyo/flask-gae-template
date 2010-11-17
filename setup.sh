@@ -17,3 +17,4 @@ do
 done
 
 rm -rf .git
+rm setup.sh
