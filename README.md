@@ -4,16 +4,16 @@ flask-gae-template
 Setup
 ------
 
-    git clone http://github.com/jugyo/flask-gae-template.git app
-    cd app
-    ./setup.sh
+    $ git clone http://github.com/jugyo/flask-gae-template.git app
+    $ cd app
+    $ ./setup.sh
 
 Run
 ------
 
     dev_appserver.py .
 
-and open 'http://localhost:8080/hello'.
+and open 'http://localhost:8080/'.
 
 Deploy
 ------
