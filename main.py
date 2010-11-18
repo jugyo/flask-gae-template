@@ -1,5 +1,5 @@
 import sys
-sys.path.append('lib')
+sys.path.append('vendor')
 
 from wsgiref.handlers import CGIHandler
 from app import app

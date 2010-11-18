@@ -1,5 +1,5 @@
 #!/bin/sh
-mkdir lib
+mkdir vendor
 
 libs='flask jinja2 werkzeug'
 
@@ -13,7 +13,7 @@ easy_install -U Flask
 for i in $libs
 do
   d=`easy_install -m $i | grep Using | awk '{print $2}'`/$i
-  cp -rf $d lib
+  cp -rf $d vendor
 done
 
 rm -rf .git
